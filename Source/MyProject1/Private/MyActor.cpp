@@ -37,8 +37,6 @@ void AMyActor::move()
 void AMyActor::step()
 {
 	for(int i = 0; i < 2; i++) if (randomResult(50)) now.XY[i]++;
-	//if (randomResult(50)) now.X++;
-	//if (randomResult(50)) now.Y++;
 	UE_LOG(LogTemp, Display, TEXT("Current Position : [%d / %d]"), (int)now.X, (int)now.Y);
 }
 
